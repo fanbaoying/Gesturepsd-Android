@@ -12,15 +12,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
-    signingConfigs {
-        debug {
-            storeFile file("/Users/fby/.android/debug.keystore")
-//            storeFile file("/Users/fby/Documents/android/debug.keystore")
-            storePassword "20162017"
-            keyAlias 'key0'
-            keyPassword "20162017"
-        }
-    }
+
 
     buildTypes {
         release {
